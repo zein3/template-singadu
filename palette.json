@@ -1,0 +1,207 @@
+[
+  {
+    "paletteName": "Primary",
+    "swatches": [
+      {
+        "name": "primary-100",
+        "color": "F0F0F0"
+      },
+      {
+        "name": "primary-200",
+        "color": "ADE3E7"
+      },
+      {
+        "name": "primary-300",
+        "color": "6FD1DE"
+      },
+      {
+        "name": "primary-400",
+        "color": "35B8D5"
+      },
+      {
+        "name": "primary-500",
+        "color": "009CCC"
+      },
+      {
+        "name": "primary-600",
+        "color": "006CA4"
+      },
+      {
+        "name": "primary-700",
+        "color": "00437B"
+      },
+      {
+        "name": "primary-800",
+        "color": "002453"
+      },
+      {
+        "name": "primary-900",
+        "color": "000E2B"
+      }
+    ]
+  },
+  {
+    "paletteName": "Neutral",
+    "swatches": [
+      {
+        "name": "neutral-100",
+        "color": "F1F5F9"
+      },
+      {
+        "name": "neutral-200",
+        "color": "E2E8F0"
+      },
+      {
+        "name": "neutral-300",
+        "color": "CBD5E1"
+      },
+      {
+        "name": "neutral-400",
+        "color": "94A3B8"
+      },
+      {
+        "name": "neutral-500",
+        "color": "64748B"
+      },
+      {
+        "name": "neutral-600",
+        "color": "475569"
+      },
+      {
+        "name": "neutral-700",
+        "color": "334155"
+      },
+      {
+        "name": "neutral-800",
+        "color": "1E293B"
+      },
+      {
+        "name": "neutral-900",
+        "color": "0F172A"
+      }
+    ]
+  },
+  {
+    "paletteName": "Warning",
+    "swatches": [
+      {
+        "name": "warning-100",
+        "color": "FEF9C3"
+      },
+      {
+        "name": "warning-200",
+        "color": "FEF08A"
+      },
+      {
+        "name": "warning-300",
+        "color": "FDE047"
+      },
+      {
+        "name": "warning-400",
+        "color": "FACC15"
+      },
+      {
+        "name": "warning-500",
+        "color": "EAB308"
+      },
+      {
+        "name": "warning-600",
+        "color": "CA8A04"
+      },
+      {
+        "name": "warning-700",
+        "color": "A16207"
+      },
+      {
+        "name": "warning-800",
+        "color": "854D0E"
+      },
+      {
+        "name": "warning-900",
+        "color": "713F12"
+      }
+    ]
+  },
+  {
+    "paletteName": "Danger",
+    "swatches": [
+      {
+        "name": "danger-100",
+        "color": "FEE2E2"
+      },
+      {
+        "name": "danger-200",
+        "color": "FECACA"
+      },
+      {
+        "name": "danger-300",
+        "color": "FCA5A5"
+      },
+      {
+        "name": "danger-400",
+        "color": "F87171"
+      },
+      {
+        "name": "danger-500",
+        "color": "EF4444"
+      },
+      {
+        "name": "danger-600",
+        "color": "DC2626"
+      },
+      {
+        "name": "danger-700",
+        "color": "B91C1C"
+      },
+      {
+        "name": "danger-800",
+        "color": "991B1B"
+      },
+      {
+        "name": "danger-900",
+        "color": "7F1D1D"
+      }
+    ]
+  },
+  {
+    "paletteName": "Success",
+    "swatches": [
+      {
+        "name": "success-100",
+        "color": "DCFCE7"
+      },
+      {
+        "name": "success-200",
+        "color": "BBF7D0"
+      },
+      {
+        "name": "success-300",
+        "color": "86EFAC"
+      },
+      {
+        "name": "success-400",
+        "color": "4ADE80"
+      },
+      {
+        "name": "success-500",
+        "color": "22C55E"
+      },
+      {
+        "name": "success-600",
+        "color": "16A34A"
+      },
+      {
+        "name": "success-700",
+        "color": "15803D"
+      },
+      {
+        "name": "success-800",
+        "color": "166534"
+      },
+      {
+        "name": "success-900",
+        "color": "14532D"
+      }
+    ]
+  }
+]
