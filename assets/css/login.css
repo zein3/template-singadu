@@ -2,6 +2,10 @@ body {
   background-color: var(--neutral-100);
 }
 
+body.dark {
+  background-color: var(--neutral-900);
+}
+
 .login-header {
   display: flex;
   flex-direction: column;
@@ -20,10 +24,15 @@ body {
 }
 
 .login-card {
+  background-color: #FFFFFF;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 4rem;
+}
+
+.dark .login-card {
+  background-color: var(--neutral-800);
 }
 
 .login-submit-btn {
@@ -33,7 +42,6 @@ body {
 @media only screen and (min-width: 768px) {
   .login-card {
     padding: 4rem 1.5rem;
-    background-color: #FFFFFF;
     border-radius: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
