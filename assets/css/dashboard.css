@@ -62,15 +62,20 @@ main.main {
     position: relative;
     width: 16rem;
     z-index: 1;
+    overflow: visible;
   }
 
   .sidebar.open {
     width: 0;
   }
 
+  .sidebar.open * {
+    display: none; /* agar konten tiak terlihat walaupun overflow: visible */
+  }
+
   /* Sticky doesn't work when overflow value is not visible (overidden) */
-  /* .sidebar-content {
+  .sidebar-content {
     position: sticky;
     top: 75px;
-  } */
+  }
 }
