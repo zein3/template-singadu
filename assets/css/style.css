@@ -42,6 +42,10 @@ h1, h2, h3, h4, h5 {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.btn-icon * {
+  pointer-events: none;
+}
+
 .icon {
   width: 2rem;
   height: 2rem;
@@ -90,4 +94,54 @@ h1, h2, h3, h4, h5 {
 
 .dark .form-input {
   color: var(--neutral-100);
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown > ul {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 2.5rem;
+  right: 0;
+  list-style: none;
+  padding: 0.3rem;
+  background-color: #FFFFFF;
+  color: var(--neutral-900);
+  border-radius: 4px;
+}
+
+.dark .dropdown > ul {
+  background-color: var(--neutral-700);
+  color: var(--neutral-100);
+}
+
+.dropdown.open > ul {
+  display: flex;
+}
+
+.dropdown > ul > li {
+  margin: 0.7rem 0;
+}
+
+.dropdown > ul > li > a {
+  padding: 0.5rem 1.8rem;
+  border-radius: 4px;
+  color: var(--neutral-900);
+  text-decoration: none;
+}
+
+.dark .dropdown > ul > li > a {
+  color: var(--neutral-100);
+}
+
+.dropdown > ul > li > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.dropdown > ul > li > a:active {
+  background-color: rgba(0, 0, 0, 0.6);
 }
