@@ -1,11 +1,3 @@
-body {
-  background-color: var(--neutral-100);
-}
-
-body.dark {
-  background-color: var(--neutral-900);
-}
-
 .login-header {
   display: flex;
   flex-direction: column;

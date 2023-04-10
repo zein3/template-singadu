@@ -28,6 +28,26 @@ h1, h2, h3, h4, h5 {
   cursor: pointer;
 }
 
+.btn-icon {
+  padding: 0.3rem 0.4rem;
+  cursor: pointer;
+  color: var(--neutral-100);
+  border-radius: 100%;
+}
+
+.btn-icon:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.btn-icon:active {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
+}
+
 .btn-primary {
   background-color: var(--primary-500);
   color: var(--neutral-100);
