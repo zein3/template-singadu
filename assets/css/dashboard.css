@@ -55,6 +55,26 @@ main.main {
 
 .sidebar-content {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.content {
+  color: var(--neutral-900);
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.dark .content {
+  color: var(--neutral-100);
 }
 
 @media only screen and (min-width: 768px) {
