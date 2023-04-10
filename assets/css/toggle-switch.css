@@ -44,6 +44,6 @@
 
 .toggle-switch input:checked ~ .slider::before {
   transform: translateX(40px);
-  background-color: var(--neutral-800);
+  background-color: var(--primary-600);
   box-shadow: none;
 }

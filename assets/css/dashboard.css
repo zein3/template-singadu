@@ -1,7 +1,9 @@
 .top-nav {
   width: 100%;
   height: 50px;
-  background-color: var(--primary-600);
+  /* background-color: var(--primary-600); */
+  background-color: #FFFFFF;
+  color: var(--neutral-900);
   position: sticky;
   top: 0;
   z-index: 2;
@@ -10,13 +12,20 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.2rem 0;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dark .top-nav {
+  background-color: var(--neutral-700);
+  color: var(--neutral-100);
 }
 
 .top-nav > * {
-  margin: 0 0.4rem;
+  margin: 0 1rem;
 }
 
 main.main {
+  position: relative;
   display: flex;
   flex-direction: row;
   max-width: 100%;
@@ -29,13 +38,23 @@ main.main {
   width: 0;
   min-height: 100vh;
   overflow-x: hidden;
-  background-color: var(--primary-700);
-  transition: 0.5s;
+  background-color: #FFFFFF;
+  color: var(--neutral-900);
+  transition: width 0.5s;
   z-index: 3;
+}
+
+.dark .sidebar {
+  background-color: var(--neutral-800);
+  color: var(--neutral-100);
 }
 
 .sidebar.open {
   width: 100vw;
+}
+
+.sidebar-content {
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
@@ -48,4 +67,10 @@ main.main {
   .sidebar.open {
     width: 0;
   }
+
+  /* Sticky doesn't work when overflow value is not visible (overidden) */
+  /* .sidebar-content {
+    position: sticky;
+    top: 75px;
+  } */
 }
