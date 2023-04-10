@@ -39,8 +39,16 @@ hr {
   column-gap: 1rem;
 }
 
+.menu.active {
+  border-right: 3px solid var(--primary-400);
+}
+
 .dark .menu {
   color: var(--neutral-100);
+}
+
+.dark .menu.active {
+  border-right: 3px solid var(--primary-500);
 }
 
 .menu:hover {

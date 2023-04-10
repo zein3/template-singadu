@@ -70,7 +70,7 @@ main.main {
   color: var(--neutral-900);
   max-width: 768px;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 1rem;
 }
 
 .dark .content {
@@ -97,5 +97,9 @@ main.main {
   .sidebar-content {
     position: sticky;
     top: 75px;
+  }
+
+  .content {
+    padding: 1rem 0.5rem;
   }
 }
