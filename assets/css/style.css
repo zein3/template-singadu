@@ -89,9 +89,36 @@ hr {
   pointer-events: none;
 }
 
+.btn-action {
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.btn-action .icon.small:hover {
+  width: 2rem;
+  height: 2rem;
+}
+
 .icon {
   width: 2rem;
   height: 2rem;
+}
+
+.icon.small {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.primary {
+  color: var(--primary-600);
+}
+
+.dark .primary {
+  color: var(--primary-400);
+}
+
+.danger {
+  color: var(--danger-600);
 }
 
 .btn-primary {
@@ -212,7 +239,7 @@ textarea.form-input {
   padding: 0.8rem 1.2rem;
   border-radius: 4px;
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  background-color: var(--neutral-200);
+  background-color: #FFFFFF;
   color: var(--neutral-900);
 }
 
@@ -223,6 +250,62 @@ textarea.form-input {
 
 .w\-full {
   width: 100%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th:first-child {
+  border-top-left-radius: 4px;
+}
+
+.table th:last-child {
+  border-top-right-radius: 4px;
+}
+
+.table tr:last-child td:first-child {
+  border-bottom-left-radius: 4px;
+}
+
+.table tr:last-child td:last-child {
+  border-bottom-right-radius: 4px;
+}
+
+.table td, .table th {
+  min-width: 100px;
+  padding: 0.7rem 0.4rem;
+}
+
+.table td {
+  word-wrap: break-word;
+  max-width: 50%;
+  text-align: center;
+}
+
+.table tr {
+  background-color: var(--neutral-300);
+}
+
+.dark .table tr {
+  background-color: var(--neutral-900);
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: var(--neutral-100);
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: var(--neutral-200);
+}
+
+.dark .table tbody tr:nth-child(odd) {
+  background-color: var(--neutral-600);
+}
+
+.dark .table tbody tr:nth-child(even) {
+  background-color: var(--neutral-700);
 }
 
 @media only screen and (min-width: 768px) {
