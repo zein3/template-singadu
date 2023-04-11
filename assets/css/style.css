@@ -107,11 +107,20 @@ hr {
   width: 100%;
 }
 
+.form-group label {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
 .form-div {
-  padding: 1rem 1.5rem;
+  padding: 0.3rem 0.5rem;
   background-color: var(--neutral-300);
   margin: 0.6rem 0;
   border-radius: 4px;
+}
+
+.form-div.big {
+  padding: 1rem 1.5rem;
 }
 
 .dark .form-div {
@@ -128,6 +137,8 @@ hr {
 }
 
 .form-input {
+  width: 100%;
+  height: 100%;
   background-color: transparent;
   border: none;
   outline: none;
@@ -137,6 +148,14 @@ hr {
 
 .dark .form-input {
   color: var(--neutral-100);
+}
+
+textarea.form-input {
+  resize: vertical;
+}
+
+.dark select {
+  background-color: var(--neutral-700);
 }
 
 .dropdown {
@@ -187,6 +206,23 @@ hr {
 
 .dropdown > ul > li > a:active {
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.card {
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  background-color: var(--neutral-200);
+  color: var(--neutral-900);
+}
+
+.dark .card {
+  background-color: var(--neutral-800);
+  color: var(--neutral-100);
+}
+
+.w\-full {
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
