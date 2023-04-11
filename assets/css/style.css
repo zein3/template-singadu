@@ -94,11 +94,6 @@ hr {
   border-radius: 100%;
 }
 
-.btn-action .icon.small:hover {
-  width: 2rem;
-  height: 2rem;
-}
-
 .icon {
   width: 2rem;
   height: 2rem;
@@ -115,6 +110,14 @@ hr {
 
 .dark .primary {
   color: var(--primary-400);
+}
+
+.success {
+  color: var(--success-600);
+}
+
+.dark .success {
+  color: var(--success-400);
 }
 
 .danger {
@@ -306,6 +309,26 @@ textarea.form-input {
 
 .dark .table tbody tr:nth-child(even) {
   background-color: var(--neutral-700);
+}
+
+.modal {
+  display: none;
+  padding: 1rem;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 5;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal.open {
+  display: flex;
+}
+
+.modal > .card {
+  max-width: 768px;
+  width: 100%;
 }
 
 @media only screen and (min-width: 768px) {
