@@ -138,6 +138,10 @@ hr {
   background-color: var(--primary-400);
 }
 
+.dark .btn-primary:hover {
+  background-color: var(--primary-600);
+}
+
 .btn-danger {
   background-color: var(--danger-500);
   color: var(--neutral-100);
@@ -145,6 +149,10 @@ hr {
 
 .btn-danger:hover {
   background-color: var(--danger-400);
+}
+
+.dark .btn-danger:hover {
+  background-color: var(--danger-600);
 }
 
 .btn-secondary {
