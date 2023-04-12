@@ -104,6 +104,11 @@ hr {
   height: 1.5rem;
 }
 
+.icon.large {
+  width: 8rem;
+  height: 8rem;
+}
+
 .primary {
   color: var(--primary-600);
 }
@@ -131,6 +136,32 @@ hr {
 
 .btn-primary:hover {
   background-color: var(--primary-400);
+}
+
+.btn-danger {
+  background-color: var(--danger-500);
+  color: var(--neutral-100);
+}
+
+.btn-danger:hover {
+  background-color: var(--danger-400);
+}
+
+.btn-secondary {
+  background-color: var(--neutral-300);
+}
+
+.btn-secondary:hover {
+  background-color: var(--neutral-200);
+}
+
+.dark .btn-secondary {
+  background-color: var(--neutral-600);
+  color: var(--neutral-100);
+}
+
+.dark .btn-secondary:hover {
+  background-color: var(--neutral-700);
 }
 
 .btn-block {
@@ -249,6 +280,12 @@ textarea.form-input {
 .dark .card {
   background-color: var(--neutral-800);
   color: var(--neutral-100);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .w\-full {
