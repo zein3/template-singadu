@@ -392,6 +392,46 @@ textarea.form-input {
   margin: 0 0.5rem;
 }
 
+.alert {
+  padding: 0.5rem 0.8rem;
+  margin: 0.1rem 0;
+  display: none;
+  width: 80%;
+  border-radius: 4px;
+  font-weight: 600;
+  outline: 2px solid black;
+}
+
+.alert.open {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.alert.success {
+  background-color: var(--success-200);
+  color: var(--success-600);
+  outline-color: var(--success-600);
+}
+
+.dark .alert.success {
+  background-color: var(--success-800);
+  color: var(--success-400);
+  outline-color: var(--success-400);
+}
+
+.alert.danger {
+  background-color: var(--danger-200);
+  color: var(--danger-600);
+  outline-color: var(--danger-600);
+}
+
+.dark .alert.danger {
+  background-color: var(--danger-800);
+  color: var(--danger-400);
+  outline-color: var(--danger-400);
+}
+
 @media only screen and (min-width: 768px) {
   .md\:hidden {
     display: none !important;
